@@ -21,6 +21,7 @@ Objects {
   ChildIds: 6052477552364043076
   ChildIds: 5715376308883625561
   ChildIds: 18237182634725745367
+  ChildIds: 10177162696079750671
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,52 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10177162696079750671
+  Name: "NPC - Dragon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6175614094449634417
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18005923331114773312
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPC - Dragon"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4450
+            Y: 1350
+            Z: 100
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15728781663253921388
+    }
   }
 }
 Objects {
